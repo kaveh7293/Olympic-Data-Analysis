@@ -17,7 +17,7 @@ The relationship between these three features can be seen also from the followin
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
 
-* Similar plots can be obtained for relationship between total medals and the average temeprature. 
+* Similar plots can be obtained for relationship between total medals and the average temeprature. As shown, the average temperature is negetively correlated with the performance of the countries which does make sense for winter olympics.
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Temperature.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Winter_Temperature.png)
