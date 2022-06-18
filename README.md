@@ -12,6 +12,10 @@
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_GDP.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Winter_GDP.png)
+
+The relationship between these three features can be seen also from the following heat map showing the correlation between the variables.
+
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
 ## Cluster Analysis
 
 * In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
