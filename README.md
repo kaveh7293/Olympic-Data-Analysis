@@ -15,4 +15,4 @@
 ## Determine the number of clusters
 * I used the elbow point of wcss vs. the number of clusters plot to determine the number of clusters in the final clustering model. Based on the figure shown below, betwee seven to eight clusters must be suffiecient to explain most of the variations exists in the data.
 
-![]()
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Cluster_determination.png)
