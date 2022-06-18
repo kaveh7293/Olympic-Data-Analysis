@@ -13,7 +13,7 @@
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_GDP.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Winter_GDP.png)
 
-The relationship between these three features can be seen also from the following heat map showing the correlation between the variables.
+The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
 ## Cluster Analysis
