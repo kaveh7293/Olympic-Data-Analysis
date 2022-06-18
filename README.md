@@ -19,6 +19,11 @@
 
 ## Principal Component Analysis for Visualization
 * With the first two and the first three principle components 85% and 92% of variations in the data can be explained. In the following, the projection of the data on the first and the second proincipal components and the first and the third principal components are shown. Different colors are used to demonstrate data points belong to different clusters.
+
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t2.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t3.png)
+* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. 
+
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png)
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p3.png)
 
