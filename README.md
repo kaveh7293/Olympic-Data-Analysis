@@ -16,3 +16,6 @@
 * I used the elbow point of wcss vs. the number of clusters plot to determine the number of clusters in the final clustering model. Based on the figure shown below, betwee seven to eight clusters must be suffiecient to explain most of the variations exists in the data. I continued my clustering with seven clusters.
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Cluster_determination.png)
+
+## Principal Component Analysis for Visualization
+* With the first two and the first three principle components 85% and 92% of variations in the data can be explained. In the following, the projection of the data on the first and the second proincipal components and the first and the third principal components are shown. Different colors are used to demonstrate data points belong to different clusters.
