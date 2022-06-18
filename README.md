@@ -19,3 +19,6 @@
 
 ## Principal Component Analysis for Visualization
 * With the first two and the first three principle components 85% and 92% of variations in the data can be explained. In the following, the projection of the data on the first and the second proincipal components and the first and the third principal components are shown. Different colors are used to demonstrate data points belong to different clusters.
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t2.png)
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t3.png)
+
