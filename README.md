@@ -7,12 +7,12 @@
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Summer.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Winter.png)
-
-# Cluster Analysis
+## Feature Analysis
+## Cluster Analysis
 
 * In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
 * Prior to every step, I did some data cleaning using regular expression in python. Also, I tried to investigate whether there is any missing values so that I can whether remove or find the values which can be used instead of missing values. For example, since Soviet Union does not exist anymore, its corresponding GDP and average weather temperature do not exsit. So, I lumped together the information for Soviet Union and Russia. There was the same problem for Eastern Germany and Western Germany which does not exist anymore. Likewise, I lumped their medal information with the Germany. Further, I did a standard transformation so that all the features have the same variances and the same orders of magnitude.
-## Determine the number of clusters
+### Determine the number of clusters
 * I used the elbow point of wcss vs. the number of clusters plot to determine the number of clusters in the final clustering model. Based on the figure shown below, betwee seven to eight clusters must be suffiecient to explain most of the variations exists in the data. I continued my clustering with seven clusters.
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Cluster_determination.png)
