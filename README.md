@@ -24,7 +24,7 @@ The relationship between these three features can be seen also from the followin
 
 The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_%20Winter_Temperature.png)
 
 
 
