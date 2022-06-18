@@ -16,6 +16,18 @@
 The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
+
+* Similar plots can be obtained for relationship between total medals and the average temeprature. 
+
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Temperature.png)
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Winter_Temperature.png)
+
+The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
+
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_Temperature.png)
+
+
+
 ## Cluster Analysis
 
 * In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
