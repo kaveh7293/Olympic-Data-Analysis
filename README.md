@@ -1,5 +1,5 @@
 # Olympic-Data-Analysis
-* In this exmple, I tried to analysis the data of different olympic games using python. This data analysis contains information regarding the number of medals that teams obtained during all the previous olympics. I added the average temeprature of differnet countries and their GDP to realize whether there is any pattern between the olympic success and these additional features.
+* In this exmple, I tried to analysis the data of different olympic games using python. This data analysis contains information regarding the number of medals that teams obtained during all the previous olympics. I added the average temeprature of differnet countries and their GDP to realize whether there is any pattern between the olympic success and these additional features. The python code for all of the following data extraction, data cleaning and cluster analysis can be found [here](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Olympic_Data_Analysis.py).
 
 * The data were collected using BeautifulSoup library in python from wikipedia website. The data for number of medals for different countries, the GDP and average temperature were collected separately and then concatenated to obtain a pandas data from. 
 
