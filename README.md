@@ -22,7 +22,12 @@
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t2.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t3.png)
-* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. 
+* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are
+  * Temperature is an important feature which have a very important effect on differentiation of these clusters
+  * Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.
+  * The GDP and the gold medals in the summer olympics are highly correlated. However, the gold medals in the winter olympics and GDP are on the negative and positive sides of P2 plot. Note that only 12% variation is explained by the second principal component. As a result, we cannot conclude that the poor countries mostly won the winter gold medals.
+  * Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.
+  *   
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p3.png)
