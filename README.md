@@ -7,3 +7,8 @@
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Summer.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Winter.png)
+
+# Cluster Analysis
+
+* In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
+* Prior to every step, I did some data cleaning using regular expression in python. Also, I tried to investigate whether there is any missing values so that I can whether remove or find the values which can be used instead of missing values. For example, since Soviet Union does not exist anymore, its corresponding GDP and average weather temperature do not exsit. So, I lumped together the information for Soviet Union and Russia. There was the same problem for Eastern Germany and Western Germany which does not exist anymore. Likewise, I lumped their medal information with the Germany. 
