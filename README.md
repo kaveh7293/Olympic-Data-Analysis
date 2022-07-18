@@ -18,7 +18,7 @@ Similar plots can be obtained for relationship between total medals and the aver
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Picture2.png' width='700' height='300'><br>
 
 
-The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
+The relationship between the four features (i.e., the total number of medals in winter, the total number of medals in summer, temperature, and GDP) can be seen also from the following heat map which is in agreement with the scatter plots above: <br>
 
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/heatMap.png' width='600' height='500'>
 
@@ -43,27 +43,4 @@ In the following, the projection of the data on to the first and the second proi
 
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png' width='2000' height='1000'></ol><br>
 
-## Cluster Analysis
-
-* In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
-* 
-### Determine the number of clusters
-* I used the elbow point of wcss vs. the number of clusters plot to determine the number of clusters in the final clustering model. Based on the figure shown below, betwee seven to eight clusters must be suffiecient to explain most of the variations exists in the data. I continued my clustering with seven clusters.
-
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Cluster_determination.png)
-
-## Principal Component Analysis for Visualization
-* With the first two and the first three principle components 85% and 92% of variations in the data can be explained. In the following, the projection of the data on the first and the second proincipal components and the first and the third principal components are shown. Different colors are used to demonstrate data points belong to different clusters.
-
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t2.png)
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/t1_t3.png)
-* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are
-  * Temperature is an important feature which have a very important effect on differentiation of these clusters
-  * Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.
-  * The GDP and the gold medals in the summer olympics are highly correlated. However, the gold medals in the winter olympics and GDP are on the negative and positive sides of P2 plot. Note that only 12% variation is explained by the second principal component. As a result, we cannot conclude that the poor countries mostly won the winter gold medals.
-  * Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.
-  *   
-
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png)
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p3.png)
 
