@@ -35,17 +35,18 @@ The relationship between these three features can be seen also from the followin
 <li> I transformed the data using two principal components. The first two principal components were able to explain 85% of variations in the data. 
 In the following, the projection of the data on to the first and the second proincipal components are shown. </li>
 
-<li> I used a k-means clustering algorithm to do clustering for the data projected onto the first two principal components. Based on the plot of within-cluster-sum-of-squares (wcss) vs. number of clusters, between 5 to 6 clusters would be sufficient for this clustering problem. The following plot shows different clusters using a distinct color. 
-<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/clusters_wcss.png' width='500' height='250'>
-* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are
-  * Temperature is an important feature which have a very important effect on differentiation of these clusters
-  * Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.
-  * The GDP and the gold medals in the summer olympics are highly correlated. However, the gold medals in the winter olympics and GDP are on the negative and positive sides of P2 plot. Note that only 12% variation is explained by the second principal component. As a result, we cannot conclude that the poor countries mostly won the winter gold medals.
-  * Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.
-  *   
+<li> I used a k-means clustering algorithm to do clustering for the data projected onto the first two principal components. Based on the plot of within-cluster-sum-of-squares (wcss) vs. number of clusters, between 5 to 6 clusters would be sufficient for this clustering problem. The following plot shows different clusters using a distinct color. <br>
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/clusters_wcss.png' width='500' height='250'><br>
+To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are:
+<ol>
+ <li> Temperature is an important feature which have a very important effect on differentiation of these clusters.</li>
+ <li> Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.</li>
+ <li> The GDP and the gold medals in the summer olympics are highly correlated. However, the gold medals in the winter olympics and GDP are on the negative and positive sides of P2 plot. Note that only 12% variation is explained by the second principal component. As a result, we cannot conclude that the poor countries mostly won the winter gold medals.</li>
+ <li> Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.</li>
+    
 
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png)
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p3.png)
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png' width='2000' height='2000'><br>
+
 ## Cluster Analysis
 
 * In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
