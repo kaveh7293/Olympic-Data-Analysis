@@ -27,11 +27,29 @@ The relationship between these three features can be seen also from the followin
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_%20Winter_Temperature.png)
 
 
+<h2> Principal Component Analysis and Clustering </h2><br>
+<p> The following steps were used for dimension reduction and cluster analysis </p>
+<ol>
+<li>Prior to every step, I did some data cleaning using regular expression in python. Also, I tried to investigate whether there is any missing values so that I can whether remove or find the values which can be used instead of missing values. For example, since Soviet Union does not exist anymore, its corresponding GDP and average weather temperature do not exsit. So, I lumped together the information for Soviet Union and Russia. There was the same problem for Eastern Germany and Western Germany which does not exist anymore. Likewise, I lumped their medal information with the Germany. Further, I did a standard transformation so that all the features have the same variances and the same orders of magnitude.</li>
 
+<li> I transformed the data using two principal components. The first two principal components were able to explain 85% of variations in the data. 
+In the following, the projection of the data on to the first and the second proincipal components are shown. </li>
+
+<li> I used a k-means clustering algorithm to do clustering for the data projected onto the first two principal components. Based on the plot of within-cluster-sum-of-squares (wcss) vs. number of clusters, between 5 to 6 clusters would be sufficient for this clustering problem. The following plot shows different clusters using a distinct color. 
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/clusters_wcss.png' width='600' height='250'>
+* To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are
+  * Temperature is an important feature which have a very important effect on differentiation of these clusters
+  * Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.
+  * The GDP and the gold medals in the summer olympics are highly correlated. However, the gold medals in the winter olympics and GDP are on the negative and positive sides of P2 plot. Note that only 12% variation is explained by the second principal component. As a result, we cannot conclude that the poor countries mostly won the winter gold medals.
+  * Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.
+  *   
+
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png)
+![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p3.png)
 ## Cluster Analysis
 
 * In the current data set, I am curious about the relationship between features, and the features which affect the clusters into which countries belong. I used a k-means clustering algorithm. 
-* Prior to every step, I did some data cleaning using regular expression in python. Also, I tried to investigate whether there is any missing values so that I can whether remove or find the values which can be used instead of missing values. For example, since Soviet Union does not exist anymore, its corresponding GDP and average weather temperature do not exsit. So, I lumped together the information for Soviet Union and Russia. There was the same problem for Eastern Germany and Western Germany which does not exist anymore. Likewise, I lumped their medal information with the Germany. Further, I did a standard transformation so that all the features have the same variances and the same orders of magnitude.
+* 
 ### Determine the number of clusters
 * I used the elbow point of wcss vs. the number of clusters plot to determine the number of clusters in the final clustering model. Based on the figure shown below, betwee seven to eight clusters must be suffiecient to explain most of the variations exists in the data. I continued my clustering with seven clusters.
 
