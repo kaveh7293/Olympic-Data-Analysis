@@ -20,7 +20,7 @@ Similar plots can be obtained for relationship between total medals and the aver
 
 The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
-<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/heatMap.png' width='500' height='500'>
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/heatMap.png' width='600' height='500'>
 
 <h2> Principal Component Analysis and Clustering </h2><br>
 <p> The following steps were used for dimension reduction and cluster analysis </p>
