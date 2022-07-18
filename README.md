@@ -45,9 +45,11 @@ In the following, the projection of the data on to the first and the second proi
 
 <p> The flowing results can be concluded based on loading plot and clustering analysis:
  <ol>
- <li> The <strong> black cluster </strong> has one member. Based on the loading plot, this country has <strong> high GDP</strong> and <strong> low temperature </strong>.</li> 
-<li> The <strong> red cluster </strong> has two members. Based on the loading plot, this country has <strong> average to high GDP</strong> and <strong> low temperature </strong>.</li> 
-<li> The <strong> yellow cluster </strong> members  had <strong> relatively good performance in the winter olympics </strong>, have <strong> low average temperatures </strong>, and have <strong> average to low average GDP</strong>.</li> 
+ <li> The <strong> black cluster </strong> has one member (i.e. US). Based on the loading plot, this country has <strong> high GDP</strong> and <strong> low temperature </strong>.</li> 
+<li> The <strong> red cluster </strong> has two members (i.e., Russia and Germany). Based on the loading plot, this country has <strong> average to high GDP</strong> and <strong> low temperature </strong>.</li> 
+<li> The <strong> yellow cluster </strong> members  had <strong> relatively good performance in the winter olympics </strong>, have <strong> low average temperatures </strong>, and have <strong> average to low average GDP</strong>. The countries in this cluster are Australia, Austria, Canada, China, Finland, France,
+Hungary, Italy, Japan, Netherlands, Norway, Sweden, and
+       Switzerland.</li> 
 
 <li> The <strong> green cluster </strong> members  had <strong> relatively bad performance in the previous olympics </strong>, and have <strong> average temperatures </strong>.</li> 
 <li> The <strong> blue cluster </strong> members  had <strong> relatively bad performance in the previous olympics </strong>, and have <strong> high temperatures </strong>.</li> 
