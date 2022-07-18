@@ -43,4 +43,13 @@ In the following, the projection of the data on to the first and the second proi
 
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png' width='2000' height='1000'></ol><br>
 
+<p> The flowing results can be concluded based on loading plot and clustering analysis:
+ <ol>
+ <li> The black cluster has one member. Based on the loading plot, this country has <strong> high GDP</strong> and <strong> low temperature </strong>.</li> 
+  
+ </ol>
+ 
+ 
+ </p>
 
+  
