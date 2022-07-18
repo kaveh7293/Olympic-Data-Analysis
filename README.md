@@ -45,7 +45,7 @@ In the following, the projection of the data on to the first and the second proi
  <li> Since 72% of the variations are explained by the first principal component, the most of differentiations in the clusters are because of the features that are located on the negative side and positive side of the P1 axis.</li>
     
 
-<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png' width='2000' height='1500'></ol><br>
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/loadin_p1_p2.png' width='2000' height='1000'></ol><br>
 
 ## Cluster Analysis
 
