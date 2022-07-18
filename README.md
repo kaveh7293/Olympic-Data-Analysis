@@ -7,24 +7,20 @@
 
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Summer.png)
 ![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Winter.png)
-## Feature Analysis
-* In this sectiona, we analyse the relationship between different features using visualization. The first plot shows the relationship between the total number of winter and summer medals vs the countries GDP. As shown the correlation between summer medals and GDP is larger compared to the winter medals and GDP
+<h2> Feature Analysis </h2>
+<p> In this section, we analyse the relationship between different features using visualization. The first plot shows the relationship between the total number of winter and summer medals vs the countries GDP. As shown the correlation between summer medals and GDP is larger compared to the winter medals and GDP
 
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Picture3.png' width='700' height='300'><br>
 
-The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_Winter_GDP.png)
-
-* Similar plots can be obtained for relationship between total medals and the average temeprature. As shown, the average temperature is negetively correlated with the performance of the countries which does make sense for winter olympics.<br>
+Similar plots can be obtained for relationship between total medals and the average temeprature. As shown, the average temperature is negetively correlated with the performance of the countries which does make sense for winter olympics.<br>
 
 <img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Picture2.png' width='700' height='300'><br>
 
 
 The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_%20Winter_Temperature.png)
-
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/heatMap.png' width='500' height='500'>
 
 <h2> Principal Component Analysis and Clustering </h2><br>
 <p> The following steps were used for dimension reduction and cluster analysis </p>
