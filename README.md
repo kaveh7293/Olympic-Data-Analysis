@@ -36,7 +36,7 @@ The relationship between these three features can be seen also from the followin
 In the following, the projection of the data on to the first and the second proincipal components are shown. </li>
 
 <li> I used a k-means clustering algorithm to do clustering for the data projected onto the first two principal components. Based on the plot of within-cluster-sum-of-squares (wcss) vs. number of clusters, between 5 to 6 clusters would be sufficient for this clustering problem. The following plot shows different clusters using a distinct color. 
-<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/clusters_wcss.png' width='600' height='250'>
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/clusters_wcss.png' width='500' height='250'>
 * To better understand which important features have important influence on differntiation of clusters, I plotted the p-loading plots. P-loading plots gives the relationship between direction of principal components and the direction of other features. The important features are located along the principal components. The corresponding plots are shown below. The important information can be extracted from these loading plots are
   * Temperature is an important feature which have a very important effect on differentiation of these clusters
   * Temperature and appearance in the olympics are negatively correlated (temperature is at the upper left corner and appearance is in the lower right corner of the P2 vs. P1 plot). As a result, countries with hotter climates have less appearances in the olympic.
