@@ -10,8 +10,7 @@
 ## Feature Analysis
 * In this sectiona, we analyse the relationship between different features using visualization. The first plot shows the relationship between the total number of winter and summer medals vs the countries GDP. As shown the correlation between summer medals and GDP is larger compared to the winter medals and GDP
 
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Summer_GDP.png)
-![](https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Total_Winter_GDP.png)
+<img src='https://github.com/kaveh7293/Olympic-Data-Analysis/blob/main/Picture3.png' width='700' height='300'><br>
 
 The relationship between these three features can be seen also from the following heat map which is in agreement with the scatter plots above.
 
